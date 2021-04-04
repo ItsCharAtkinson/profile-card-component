@@ -16,6 +16,7 @@
     font-family: "Kumbh Sans", sans-serif;
     min-height:100vh;
     
+    
   }
   
   section {
@@ -45,7 +46,7 @@
 
   .card-body {
 
-background-color:pink;
+border-bottom: 1.5px solid lightgray;
 
   }
 
@@ -59,7 +60,6 @@ background-color:pink;
   h2 {
       display:flex;
       flex-direction: row;
-      background-color: yellow;
       justify-content: center;
   }
   
@@ -81,8 +81,22 @@ span {
   .card-footer {
       display:flex;
       justify-content: center;
-      border-top: 3px solid g;
+      align-items: center;
+      height:80px;
 
   }
  
-  
+  .num {
+margin:15px;
+
+
+  }
+
+  .title {
+      color: darkgray;
+
+      
+    
+     
+
+  }
