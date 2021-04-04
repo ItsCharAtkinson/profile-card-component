@@ -1,0 +1,88 @@
+/*Reset*/
+:root {
+    --color-dark-cyan: hsl(185, 75%, 39%);
+    --color-dark-des-blue: hsl(229, 23%, 23%);
+    --color-dark-gray-blue: hsl(227, 10%, 46%);
+    --color-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: "Kumbh Sans", sans-serif;
+    min-height:100vh;
+    
+  }
+  
+  section {
+      background-color: var(--color-dark-cyan);
+      height:100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-container {
+      min-width:350px;
+      background-color:white;
+      box-shadow: 5px 10px 30px #726e6e;
+      text-align: center;
+      border-radius: 20px;
+      overflow: hidden;
+  }
+
+  .card-header {
+      /*background-image: url(/images/bg-pattern-card.svg);
+      background-size: cover; -- this isn't showing so have applied gerneral bg colour for the time being */ 
+      background-color: violet;
+      background-size:cover;
+      height: 150px;
+  }
+
+  .card-body {
+
+background-color:pink;
+
+  }
+
+ img {
+      border-radius: 50px;
+      border: 5px solid white;
+      position: relative;
+      bottom:50px;
+  }
+
+  h2 {
+      display:flex;
+      flex-direction: row;
+      background-color: yellow;
+      justify-content: center;
+  }
+  
+  .details {
+      position: relative;
+      bottom:30px;
+  }
+
+span {
+      padding-left:10px;
+      font-size:18px;
+      color:grey;
+      padding-top:5px;
+      
+  }
+
+  
+
+  .card-footer {
+      display:flex;
+      justify-content: center;
+      border-top: 3px solid g;
+
+  }
+ 
+  
